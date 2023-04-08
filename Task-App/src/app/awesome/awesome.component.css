@@ -1,0 +1,12 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.web{
+ background-image: url("../../assets/images/Angular.jpg");
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: white;
+ background-color: aquamarine;
+ padding: 90px;
+}

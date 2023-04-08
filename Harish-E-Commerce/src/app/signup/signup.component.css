@@ -1,0 +1,16 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ padding-top: 200px;
+}
+
+.example-card {
+ width: 30%;
+ align-content: center;
+}

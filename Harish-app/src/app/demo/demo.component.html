@@ -1,0 +1,20 @@
+<h1>{{name}}</h1>
+<h2 *ngIf="isOkay">Hello World</h2>
+<ul>
+ <li *ngFor="let data of emp">Emp name is {{data.name}} and age is {{data.age}}</li>
+</ul>
+<h1>{{id}}</h1>
+<h1>{{city}}</h1>
+
+<h1>Got an ID {{pid}}</h1>
+
+
+<a routerLink="dummy">Dummy</a>
+
+<a routerLink="silly">Silly</a>
+
+<router-outlet></router-outlet>
+
+<ol>
+ <li *ngFor="let emp of empdata">{{emp.name}}</li>
+</ol>

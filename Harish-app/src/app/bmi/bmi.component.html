@@ -1,0 +1,6 @@
+Weight: <input type="number" [(ngModel)]="weight" /><br />
+Height in Meters: <input type="number" [(ngModel)]="height" /><br />
+<button (click)="measure()">Measurement</button>
+<h1>BMI:{{output}} {{result | number: "1.1-2"}}</h1>
+
+<app-demo></app-demo>

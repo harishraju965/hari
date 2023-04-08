@@ -1,0 +1,25 @@
+{
+  "logindata": [
+    {
+      "username": "",
+      "Mobile": "",
+      "Email": "",
+      "password": "",
+      "id": 1
+    },
+    {
+      "username": "Harish",
+      "password": "123456789",
+      "Mobile": "9603016911",
+      "Email": "harishraju965@gmail.com",
+      "id": 2
+    },
+    {
+      "username": "charan",
+      "password": "123456789",
+      "Mobile": "6594889256",
+      "Email": "dkhfjhjh@gmail.com",
+      "id": 3
+    }
+  ]
+}

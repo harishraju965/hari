@@ -1,0 +1,22 @@
+import { Component, OnInit } from '@angular/core';
+
+// @NgModule({
+//   imports: [MatButtonModule],
+//   exports: [MatButtonModule]
+// })
+
+@Component({
+  selector: 'app-date',
+  templateUrl: './date.component.html',
+  styleUrls: ['./date.component.css']
+})
+export class DateComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+}
+
+

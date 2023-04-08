@@ -1,0 +1,14 @@
+{
+  "empdata": [
+    {
+      "empname": "Harish",
+      "empcode": "154609",
+      "age": "25",
+      "klang": "Angular",
+      "pcomp": "TCS",
+      "date": "2022-12-13T18:30:00.000Z",
+      "psal": "100000",
+      "id": 3
+    }
+  ]
+}

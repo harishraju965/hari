@@ -1,0 +1,77 @@
+<!-- <button pButton pRipple type="button" label="Primary" class="p-button-raised"></button>
+<button pButton pRipple type="button" label="Secondary" class="p-button-raised p-button-secondary"></button>
+<button pButton pRipple type="button" label="Success" class="p-button-raised p-button-success"></button>
+<button pButton pRipple type="button" label="Info" class="p-button-raised p-button-info"></button>
+<button pButton pRipple type="button" label="Warning" class="p-button-raised p-button-warning"></button>
+<button pButton pRipple type="button" label="Help" class="p-button-raised p-button-help"></button>
+<button pButton pRipple type="button" label="Danger" class="p-button-raised p-button-danger"></button> -->
+<div class="container">
+<p-tabView>
+ <p-tabPanel header="enter sales">
+  <div class="card1">
+  <p-card header="header1">
+   invoice number
+</p-card>
+<p-card header="header2">
+ invoice number
+</p-card>
+  </div>
+  <div class="card2">
+<p-card header="header3">
+ invoice number
+</p-card>
+<p-card header="header4">
+ invoice number
+</p-card>
+</div>
+<div class="add">
+<p>Add retailer sales</p>
+<p-button (click)="displayCard()">Add or Change</p-button>
+</div>
+<p-button class="con">Confirm</p-button>
+</p-tabPanel>
+ <p-tabPanel header="view sales">
+  <p-card header="header1">
+   Content
+  </p-card>
+  <div class="card3">
+<p-card header="header2">
+ invoice number
+</p-card>
+<p-card header="header3">
+ invoice number
+</p-card>
+<p-card header="header4">
+ invoice number
+</p-card>
+</div>
+</p-tabPanel>
+</p-tabView>
+</div>
+<div class="card">
+<p-card header="Simple Card" *ngIf="showCard" [style]="{'width': '25rem', 'margin-bottom': '3em'}">
+  <ng-template pTemplate="header">
+      <img alt="Card" src="../../assets/images/harish.jpg">
+  </ng-template>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+      quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
+</p-card>
+<p-card header="Simple Card" *ngIf="showCard" [style]="{'width': '25rem', 'margin-bottom': '3em'}">
+  <ng-template pTemplate="header">
+      <img alt="Card" src="../../assets/images/harish.jpg">
+  </ng-template>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+      quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
+</p-card>
+<p-card header="Simple Card" *ngIf="showCard" [style]="{'width': '25rem', 'margin-bottom': '3em'}">
+  <ng-template pTemplate="header">
+      <img alt="Card" src="../../assets/images/harish.jpg">
+  </ng-template>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore sed consequuntur error repudiandae numquam deserunt
+      quisquam repellat libero asperiores earum nam nobis, culpa ratione quam perferendis esse, cupiditate neque quas!</p>
+</p-card>
+</div>
+
+  
+
+    

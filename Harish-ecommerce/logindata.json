@@ -1,0 +1,11 @@
+{
+  "signupusers": [
+    {
+      "fullname": "Harish",
+      "email": "harish@gmail.com",
+      "password": "123456789",
+      "mobile": "9603016911",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.container {
+ display: flex;
+ justify-content: space-around;
+ background-color: blue;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+ border-bottom: 2px solid orangered;
+ padding: 10px;
+}
+.right li {
+ display: inline;
+ text-decoration: none;
+}
+.right a{
+ text-decoration: none;
+ padding-right: 20px;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.right ul{
+ padding-top: 10px;
+}
+.head{
+ color: orange;
+}
+.hari{
+ color: orange;
+}

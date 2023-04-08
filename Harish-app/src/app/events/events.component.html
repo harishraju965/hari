@@ -1,0 +1,53 @@
+<h1>Event Binding</h1>
+
+
+
+<p>{{sample}}</p>
+
+<p>{{age}}</p>
+<input type="text" #iage placeholder="Enter your age">
+<button (click)="demo(iage.value)">Click</button>
+
+<input type="text" #name (keyup)="keys(name.value)">
+
+<input type="text" #name (keydown)="keys(name.value)">
+
+<input type="text" #blur placeholder="Blur" (blur)="blur_event()">
+
+<input type="text" #blur placeholder="Blur" (focus)="focus_event()">
+
+<h1>onchange {{result}}</h1>
+<select name="id" id="" (change)="getOnchange()">
+ <option value="">AP</option>
+ <option value="">TS</option>
+ <option value="">MP</option>
+ <option value="">UP</option>
+ </select>
+ <h1>Date: {{date | date }}</h1>
+ <button (click)="getDate()">Get Date</button>
+
+ <h1>Toggle: {{vtoggle}}</h1>
+ <button (click)= "toggle()">Toggle</button>
+
+ <p>{{name}}</p>
+ <p>{{phone}}</p>
+ <form #reg="ngForm" (ngSubmit)="showData(reg.value)">
+  <input type="text" ngModel name="user" placeholder="Enter Name">
+  <input type="text" ngModel name="phone" placeholder="Enter Phone">
+  <button>Register</button>
+ </form>
+
+ <div class="title">
+  <h1>To Do List</h1>
+ </div>
+ <div class="list">
+  <ol>
+   <li *ngFor="let list of tasks">{{list.name.task}}</li>
+  </ol>
+ </div>
+ <div class="form-center">
+  <form #tdl="ngForm" (submit)="getTask(tdl.value)">
+   <input type="text" name="task" ngModel class="input" placeholder="Enter Task" autocomplete="off">
+   <input type="submit" class="btn">
+  </form>
+ </div>

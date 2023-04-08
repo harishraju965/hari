@@ -1,0 +1,54 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ padding-top: 200px;
+}
+
+.example-card {
+ width: 30%;
+ align-content: center;
+
+}
+
+.example-full-width {
+ margin: 0;
+ width: 100%;
+}
+
+
+
+.card {
+ position: absolute;
+ top: 0;
+ right: -200px;
+}
+
+.info {
+ position: absolute;
+ top: 0;
+ right: 0;
+}
+
+.info:hover {
+ color: blue;
+
+}
+
+button {
+ padding: 10px 0px;
+ width: 100%;
+ color: white;
+ background-color: blue;
+ border: none;
+ font-size: 20px;
+}
+
+.mat-form-field {
+ width: 100%;
+}

@@ -1,0 +1,42 @@
+<div class="container">
+  <mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Login</mat-card-title>
+      <mat-icon (click)="icon()" class="info">info</mat-icon>
+      <ul *ngIf="showdata" class="card">
+        <li>Username e.g:abc@mail.com</li>
+        <li>Username e.g:abc@123</li>
+      </ul>
+    </mat-card-header>
+    <div class="reg-form">
+      <mat-card-content>
+        <form class="example-form" [formGroup]="Login">
+          <table class="example-full-width" cellspacing="0">
+            <tr>
+              <td>
+                <mat-form-field class="example-full-width" appearance="outline">
+                  <input matInput placeholder="Username" (ngModel)="username" formControlName="username">
+                </mat-form-field>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <mat-form-field class="example-full-width" appearance="outline">
+                  <input matInput placeholder="Password" (ngModel)="password" type="password"
+                    formControlName="password">
+                </mat-form-field>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </mat-card-content>
+    </div>
+    <mat-card-actions>
+      <button mat-raised-button (click)="login()" color="primary">Login</button>
+    </mat-card-actions>
+    <mat-card-actions>
+      <a target="_blank" routerLink="signup">New User? Click here to register</a>
+    </mat-card-actions>
+  </mat-card>
+</div>
+<router-outlet></router-outlet>
